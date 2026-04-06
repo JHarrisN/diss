@@ -300,7 +300,7 @@ def extract_tspl_params_row(result, index_name, spec_label, feature_tags):
     ----------
     feature_tags : list of str
         Ordered feature keys matching result['betas'], e.g.
-        ['neg', '2'] for R_{-} + \sqrt{R_2},  ['pos', 'neg', '2'] for R_{+} + R_{-} + \sqrt{R_2}.
+        ['neg', '2'] for R_{-} + \\sqrt{R_2},  ['pos', 'neg', '2'] for R_{+} + R_{-} + \\sqrt{R_2}.
     """
     row = {
         "Index": index_name,
